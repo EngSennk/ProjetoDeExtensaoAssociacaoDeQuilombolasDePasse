@@ -1,0 +1,19 @@
+crie um README.md Profissional, bem estilizado, focado no objetivo do projeto que é: Projeto de Extensão l da faculdade, onde deveriamos apoiar uma instituição cultural, buscando necessidades e formas de apoiar usando a tecnologia. Onde conhececi a Associação de Quilombolas do interior de Candeias-Ba, que fica localizada no bairro de Passé. Após Uma reuniao com a presidenta e conhecendo mais a estrutura e suas instalações, fiquei mais empolgado e animado para nao só concluir um trabalho academico, mas principalmente ajudar essa ONG.
+
+Decidir entao a Criação de um site para: ONG: Associação dos(as) Quilombolas de Passé- Candeias-BA. 
+
+Visando as Necessidades: site da ONG com principal abordagem voltada para Reindentificação,Credibilidade Socio-Politica, buscando atrair e cativar com urgencia a  Atenção dos órgãos públicos.
+
+
+
+O site terá a principio um modelo estatico apenas como portal de noticias, endereço eletronico para voluntarios e/ou apoiadores, contar a historia e quem sao os Quilombolas de Passé, como surgiu e afins, depoimentos em imagem e texto, tanto como em video, em formato carrossel para os depoismentos texto/img. 
+
+Porém, sentir a necessidade de criar uma WebApi para o Cadastro dos mais de mil Pescadores(as), Marisqueiras(os) e afins que por sua vez sao cerca de 1mil Associados, para tambem autenticar e checar as contribuições dos mesmo com a taxa de Associal, visto que a instalação, eventos, e ademais necessidades e/ou promoções e repartição de doação e, por assim, ter direito aos galgares que a Associação de Quilombolas de Passé se esforçam para colher. 
+
+
+
+ além de destacar a necessidade de apoio em diversas áreas, apoio esse que terá uma section contendo QR Code e pix cópia e cola para contribuintes voluntários. 
+
+
+
+haverá Outras sections que estão sendo desenvolvidas com parceria a Prefeitura de Candeias e as Secretarias de Arte e cultura e Secretaria de Educação. 

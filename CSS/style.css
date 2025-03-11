@@ -1,0 +1,116 @@
+/* BODY */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #312222;
+}
+/* HEADER */
+header {
+  background-color: #4c4c4c;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 35px;
+  text-align: adjust;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(40, 38, 38);
+}
+
+.menunav nav ul {
+ 
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menunav nav li {
+  margin-right: 20px;
+}
+
+.menunav nav a {
+  font-size: 22px; /* Tamanho da fonte */
+  padding: 10px 15px; /* Espaçamento interno (top/bottom left/right) */
+  margin: 5px; /* Espaçamento externo */
+  text-align: center;
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  text-shadow: 2px 2px 2px rgb(34, 30, 30);
+  border: 1px solid transparent; /* Adiciona uma borda transparente para melhor visualização do padding */
+}
+
+.menunav nav a:hover {
+  border: 1px solid rgb(128, 128, 128); /* Adiciona uma borda ao passar o mouse */
+}
+/* HOME */
+main {
+  padding: 20px;
+}
+.home .quem-somos, .projetos, .cadastro, .apoie-nos, .contato {
+  padding: 20px;
+  color: white;
+  padding: 20px;
+ 
+ 
+}
+
+.home h2, .quem-somos h2, .projetos h2, .cadastro h2, .apoie-nos h2, .contato h2 {
+  font-size: 35px;
+  color: rgb(103, 96, 59);
+  margin-bottom: 20px;
+  text-shadow: 2px 1px 1px 2px rgb(203, 202, 202);
+  border: 2px solid transparent; 
+  font-size: 35px;
+  background-color:transparent;
+  padding: 10px;
+  text-align: center;
+}
+
+.home p, .quem-somos p, .projetos p, .cadastro p, .apoie-nos p, .contato p {
+  font-size: 20px;
+  color: #9e8484;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-shadow: 2px 1px 1px 2px rgb(95, 89, 89);
+  border: 2px solid transparent;
+  text-align: center;
+}
+.home a, .quem-somos a, .projetos a, .cadastro a, .apoie-nos a, .contato  {
+  font-size: 20px;
+  color: #9c9c9c;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-shadow: 2px 1px 1px 2px rgb(95, 89, 89);
+  border: 2px solid transparent;
+}
+
+.logoimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(95, 89, 89);
+}
+/* Estilos específicos para botões */
+.cadastro button, .apoie-nos button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Garante que o botão ocupe sua própria linha */
+  width: 200px; /* Defina a largura desejada */
+  margin: 20px auto; /* Centraliza horizontalmente e adiciona margem vertical */
+}
+
+.cadastro button:hover, .apoie-nos button:hover {
+  background-color: #e0e0e0;
+}
