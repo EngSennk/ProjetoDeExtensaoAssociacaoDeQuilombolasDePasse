@@ -7,7 +7,7 @@ body{
 }
 /* HEADER */
 header {
-  background-color: #4c4c4c;
+  background-color: #443b3b;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@ header h1 {
   font-size: 35px;
   text-align: adjust;
   margin-bottom: 0px;
-  color: white;
-  text-shadow: 2px 2px 2px rgb(40, 38, 38);
+  color: rgb(145, 107, 83);
+  text-shadow: 5px 5px 1px  rgb(36, 25, 11);
 }
 
 .menunav nav ul {
@@ -29,6 +29,7 @@ header h1 {
   margin: 0;
   display: flex;
   justify-content: center;
+ 
 }
 
 .menunav nav li {
@@ -41,8 +42,8 @@ header h1 {
   margin: 5px; /* Espaçamento externo */
   text-align: center;
   text-decoration: none;
-  color: rgb(128, 128, 128);
-  text-shadow: 2px 2px 2px rgb(34, 30, 30);
+  color: rgb(210, 198, 198);
+  text-shadow: 3px 3px 2px  rgb(36, 25, 11);
   border: 1px solid transparent; /* Adiciona uma borda transparente para melhor visualização do padding */
 }
 
@@ -62,25 +63,32 @@ main {
 }
 
 .home h2, .quem-somos h2, .projetos h2, .cadastro h2, .apoie-nos h2, .contato h2 {
+  margin-left: 800px;
   font-size: 35px;
-  color: rgb(103, 96, 59);
+  color: rgb(124, 104, 8);
   margin-bottom: 20px;
-  text-shadow: 2px 1px 1px 2px rgb(203, 202, 202);
   border: 2px solid transparent; 
   font-size: 35px;
   background-color:transparent;
   padding: 10px;
   text-align: center;
+  box-shadow: 2px 2px 2px     #926701a1;
+  border-radius: 20px;
+  color: rgb(145, 107, 83);
+  text-shadow: 5px 5px 1px  rgb(36, 25, 11);
+
 }
 
 .home p, .quem-somos p, .projetos p, .cadastro p, .apoie-nos p, .contato p {
-  font-size: 20px;
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 20px;
   color: #9e8484;
   line-height: 1.6;
   margin-bottom: 20px;
   text-shadow: 2px 1px 1px 2px rgb(95, 89, 89);
   border: 2px solid transparent;
-  text-align: center;
+  text-align: justify;
 }
 .home a, .quem-somos a, .projetos a, .cadastro a, .apoie-nos a, .contato  {
   font-size: 20px;
@@ -92,11 +100,13 @@ main {
 }
 
 .logoimg {
+  top: 250px;
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(95, 89, 89);
+  position:absolute;
+  display: block;
 }
 /* Estilos específicos para botões */
 .cadastro button, .apoie-nos button {
