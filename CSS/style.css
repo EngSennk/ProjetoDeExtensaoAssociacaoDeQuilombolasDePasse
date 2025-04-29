@@ -240,3 +240,78 @@ main {
 .cadastro button:hover, .apoie-nos button:hover {
   background-color: #e0e0e0;
 }
+
+/* ======== RESPONSIVIDADE ============ */
+
+/* Estilos para telas menores que 576px (telefones pequenos) */
+@media (max-width: 575.98px) {
+  header h1 {
+      font-size: 1.8rem;
+  }
+  .menunav nav ul li {
+      margin: 0 0.5rem;
+  }
+  .menunav nav ul li a {
+      font-size: 0.9rem;
+  }
+  h2 {
+      font-size: 1.5rem;
+  }
+  h4{
+      font-size: 1rem;
+  }
+  .home p {
+      font-size: 0.9rem;
+  }
+  footer {
+      padding: 0.5rem 0;
+  }
+}
+
+/* Estilos para telas entre 576px e 767.98px (telefones grandes) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header h1 {
+      font-size: 2rem;
+  }
+  .menunav nav ul li a {
+      font-size: 1rem;
+  }
+   h2 {
+      font-size: 1.8rem;
+  }
+  h4{
+      font-size: 1.1rem;
+  }
+  .home p {
+      font-size: 1rem;
+  }
+}
+
+/* Estilos para telas entre 768px e 991.98px (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menunav nav ul {
+      flex-direction: row;
+  }
+  .menunav nav ul li {
+      margin: 0 1rem;
+  }
+   h2 {
+      font-size: 2rem;
+  }
+  h4{
+      font-size: 1.2rem;
+  }
+  .home p {
+      font-size: 1.1rem;
+  }
+}
+
+/* Estilos para telas maiores que 992px (desktops) */
+@media (min-width: 992px) {
+  .menunav nav ul {
+      flex-direction: row;
+  }
+  .menunav nav ul li {
+      margin: 0 1.5rem;
+  }
+}
