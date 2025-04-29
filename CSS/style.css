@@ -83,12 +83,12 @@ main {
   font-size: 25px;
   margin-left: 550px;
   margin-top: 20px;
-  color: #9e8484;
+  color: #867f7f;
   line-height: 1.6;
   margin-bottom: 20px;
-  text-shadow: 2px 1px 1px 2px rgb(95, 89, 89);
-  border: 2px solid transparent;
-  text-align: justify;
+  text-shadow: 13px 13px 3px 3px rgb(26, 25, 25);
+  border: 4px solid;
+  text-align: center;
 }
 .home a, .quem-somos a, .projetos a, .cadastro a, .apoie-nos a, .contato  {
   font-size: 20px;
@@ -98,7 +98,17 @@ main {
   text-shadow: 2px 1px 1px 2px rgb(95, 89, 89);
   border: 2px solid transparent;
 }
-
+.home h4, .quem-somos h4, .projetos h4, .cadastro h4, .apoie-nos h4, .contato h4
+{
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 20px;
+  color: #d2cece;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-shadow: 13px 13px 3px 3px rgb(26, 25, 25);
+  text-align: justify; 
+}
 .logoimg {
   top: 250px;
   max-width: 100%;
@@ -108,6 +118,17 @@ main {
   position:absolute;
   display: block;
 }
+.passe 
+{
+  top: 950px;
+  max-width: 30%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(95, 89, 89);
+  position:absolute;
+  display: block;
+}
+
 /* Estilos específicos para botões */
 .cadastro button, .apoie-nos button {
   padding: 10px 20px;
