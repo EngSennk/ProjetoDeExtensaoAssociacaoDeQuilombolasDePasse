@@ -129,6 +129,101 @@ main {
   display: block;
 }
 
+/* ======= CARROSSEL ============== */
+
+.carousel-container {
+  position: relative;
+  max-width: 30%;
+  max-height: 30%;
+  overflow: hidden;
+  margin-left: 0px;
+  box-shadow: #312222 5px 5px 5px;
+  border-radius: 60px;
+}
+
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  /* width: 100%; Garante que os slides ocupem a largura total do container */
+
+ 
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  box-shadow: #312222 5px 5px 5px;
+  border-radius: 20px;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  background: none;
+  border: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  z-index: 1; /* Garante que os controles estejam acima dos slides */
+}
+
+.carousel-control:hover {
+  opacity: 1;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 1; /* Garante que a navegação esteja acima dos slides */
+}
+
+.carousel-nav-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-nav-dot.active {
+  background-color: #333;
+}
+
+.carousel-nav-dot:hover {
+  background-color: #666;
+}
+
+@media (max-width: 768px) {
+  .carousel-control {
+      font-size: 16px;
+  }
+}
+
+
 /* Estilos específicos para botões */
 .cadastro button, .apoie-nos button {
   padding: 10px 20px;
